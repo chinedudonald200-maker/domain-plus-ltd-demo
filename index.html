@@ -3,650 +3,641 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Domain Plus</title>
-
+    <title>Domain Plus International Limited</title>
+     <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      fill="currentColor"
+      class="bi bi-browser-edge"
+      viewBox="0 0 16 16"
+    >
+      <!-- <path
+        d="M9.482 9.341c-.069.062-.17.153-.17.309 0 .162.107.325.3.456.877.613 2.521.54 2.592.538h.002c.667 0 1.32-.18 1.894-.519A3.84 3.84 0 0 0 16 6.819c.018-1.316-.44-2.218-.666-2.664l-.04-.08C13.963 1.487 11.106 0 8 0A8 8 0 0 0 .473 5.29C1.488 4.048 3.183 3.262 5 3.262c2.83 0 5.01 1.885 5.01 4.797h-.004v.002c0 .338-.168.832-.487 1.244l.006-.006z"
+      />
+      <path
+        d="M.01 7.753a8.14 8.14 0 0 0 .753 3.641 8 8 0 0 0 6.495 4.564 5 5 0 0 1-.785-.377h-.01l-.12-.075a5.5 5.5 0 0 1-1.56-1.463A5.543 5.543 0 0 1 6.81 5.8l.01-.004.025-.012c.208-.098.62-.292 1.167-.285q.194.001.384.033a4 4 0 0 0-.993-.698l-.01-.005C6.348 4.282 5.199 4.263 5 4.263c-2.44 0-4.824 1.634-4.99 3.49m10.263 7.912q.133-.04.265-.084-.153.047-.307.086z"
+      />
+      <path
+        d="M10.228 15.667a5 5 0 0 0 .303-.086l.082-.025a8.02 8.02 0 0 0 4.162-3.3.25.25 0 0 0-.331-.35q-.322.168-.663.294a6.4 6.4 0 0 1-2.243.4c-2.957 0-5.532-2.031-5.532-4.644q.003-.203.046-.399a4.54 4.54 0 0 0-.46 5.898l.003.005c.315.441.707.821 1.158 1.121h.003l.144.09c.877.55 1.721 1.078 3.328.996"
+      /> -->
+    </svg>
+    <!-- Font Awesome for Icons -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
 
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Linked Custom CSS -->
+    <link rel="stylesheet" href="solution.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container header-container">
-        <div class="logo">
-          <img src="images/logo.png" alt="Domain Plus Logo" height="30" />
-          <span class="logo-text">Domain Plus</span>
+    <!-- HEADER / NAVIGATION -->
+    <header class="main-header">
+      <div class="header-container">
+        <!-- Logo Section -->
+        <div class="logo-block">
+          <span class="logo-graphic"
+            ><img src="./images/domain-plus log mod.png" alt="logo"
+          /></span>
+          <span class="logo-text">
+            Domain Plus<br /><span class="logo-subtext"
+              >International Limited</span
+            >
+          </span>
         </div>
 
-        <nav class="main-nav">
-          <ul>
-            <li>
-              <!-- <span class="menu-icons"><i class="fa-solid fa-house"></i></span> -->
-              <a href="#">Home</a>
-              <span class="dropdown-arrow"
-                ><i class="fa-solid fa-angle-down"></i
-              ></span>
-            </li>
-            <li>
-              <a href="./solution.html">Solutions</a>
-              <span class="dropdown-arrow"
-                ><i class="fa-solid fa-angle-down"></i
-              ></span>
-            </li>
-            <li>
-              <a href="./about.html">About Us</a>
-              <span class="dropdown-arrow"
-                ><i class="fa-solid fa-angle-down"></i
-              ></span>
-            </li>
-            <li>
-              <a href="./blog.html">Blog</a>
-              <span class="dropdown-arrow"
-                ><i class="fa-solid fa-angle-down"></i
-              ></span>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-              <span class="dropdown-arrow"
-                ><i class="fa-solid fa-angle-down"></i
-              ></span>
-            </li>
-            <li class="d-lg-none mt-3">
-              <button class="btn btn-primary w-100">
-                Get Free Consultation
-              </button>
-            </li>
-          </ul>
+        <!-- Desktop Navigation Links -->
+        <nav class="desktop-nav">
+          <a href="#" class="nav-link"
+            >Home <i class="fa-solid fa-chevron-down"></i
+          ></a>
+          <div class="nav-item dropdown">
+            <a href="index.html" class="nav-link">Solutions <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="services.html" class="dropdown-item">Services</a>
+              <a href="products.html" class="dropdown-item">Products</a>
+              <a href="industries.html" class="dropdown-item">Industries</a>
+            </div>
+          </div>
+          <a href="#" class="nav-link"
+            >About Us <i class="fa-solid fa-chevron-down"></i
+          ></a>
+          <!-- <a href="#" class="nav-link">Success Stories</a> -->
+          <a href="#" class="nav-link"
+            >Blog<i class="fa-solid fa-chevron-down"></i
+          ></a>
+          <a href="#" class="nav-link">Contact</a>
         </nav>
 
-        <div class="header-actions d-flex align-items-center gap-3">
-          <button class="btn btn-primary cta-button d-none d-lg-inline-block">
-            Get Free Consultation
-          </button>
-
-          <button
-            class="mobile-menu-toggle d-lg-none"
-            style="background: none; border: none; cursor: pointer"
-          >
-            <i class="fa-solid fa-bars fs-2 text-white"></i>
-          </button>
+        <!-- Action Button -->
+        <div class="header-actions">
+          <a href="#" class="btn btn-primary">Get a Free Consultation</a>
         </div>
+
+        <!-- Mobile Hamburger Button -->
+        <button
+          id="menu-btn"
+          class="menu-toggle"
+          aria-label="Toggle Navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Drawer Menu -->
+      <div id="mobile-menu" class="mobile-nav hidden">
+        <a href="#" class="mobile-link">Home</a>
+        <a href="index.html" class="mobile-link">Solutions</a>
+        <a href="#" class="mobile-link">About Us</a>
+        <a href="#" class="mobile-link">Blog</a>
+        <a href="#" class="mobile-link">Contact</a>
+        <!-- <a href="#" class="mobile-link">About Us</a> -->
+        <a href="#" class="btn btn-primary mobile-cta"
+          >Get a Free Consultation</a
+        >
       </div>
     </header>
 
-    <section class="hero-section">
-      <video autoplay muted loop class="hero-video-bg">
-        <source src="images/hero-bg-video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <div class="container hero-container">
+    <!-- HERO SECTION -->
+    <main class="hero-section">
+      <div class="hero-container">
         <div class="hero-content">
-          <span class="badge">ERP SOLUTIONS THAT TRANSFORM</span>
-          <h1>
-            Integrate.<br />Empower.<br /><span class="text-gradient"
-              >Elevate.</span
-            >
+          <p class="section-tag tag-blue">Our Solutions</p>
+          <h1 class="hero-title">
+            End-to-End Solutions for a
+            <span class="text-gradient">Smarter, Connected Business</span>
           </h1>
-          <p>
-            Domain Plus International Limited delivers end-to-end ERP
-            integration, customisation and automation solutions that streamline
-            operations, connect systems and drive real business value-globally.
+          <p class="hero-description">
+            From strategy and integration to automation and analytics, we
+            deliver comprehensive ERP solutions and products designed to
+            streamline operations, drive efficiency, and accelerate growth.
           </p>
-
-          <div class="hero-actions">
-            <button class="btn btn-primary">
-              Explore Solutions<span
-                ><i class="fa-solid fa-arrow-right"></i
-              ></span>
-            </button>
-            <button class="btn btn-outline">
-              Talk to an Expert<span><i class="fa-solid fa-headset"></i></span>
-            </button>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary">
+              Explore Our Services <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#" class="btn btn-secondary">
+              Talk to an Expert
+              <i class="fa-solid fa-circle-play icon-purple"></i>
+            </a>
           </div>
+           <marquee behavior="" direction="">
+              At Domain Plus International Limited we can do a lot more than you
+              can Imagine...
+            </marquee>
         </div>
 
-        <div class="hero-visual">
-          <div class="orbital-placeholder">
-            <div class="orbital-card card-1">
-              <i class="fa-solid fa-puzzle-piece"></i>
-              <span>ERP Integration</span>
+
+        <!-- Hologram Globe Visual Placeholder -->
+        <!-- <div class="hero-visual">
+          <div class="glow-sphere"></div>
+          <div class="orbit-outer ring-animated">
+            <div class="orbit-inner ring-animated-reverse">
+              <i class="fa-solid fa-earth-americas globe-icon"></i>
             </div>
-            <div class="orbital-card card-2">
-              <i class="fa-solid fa-gear"></i>
-              <span>Automation</span>
+          </div> -->
+
+        <!-- Floating Card Widgets -->
+        <!-- <div class="floating-widget widget-top">
+            <i class="fa-solid fa-cubes icon-purple"></i>
+            <h4>Services</h4>
+            <p>
+              Expert services to implement, integrate, and customize your ERP.
+            </p>
+          </div>
+          <div class="floating-widget widget-bottom">
+            <i class="fa-solid fa-city icon-blue"></i>
+            <h4>Industries</h4>
+            <p>
+              Industry-specific environments tailored to unique pain points.
+            </p>
+          </div>
+        </div> -->
+
+         <div class="image">
+            <div class="boxes">
+              <!-- The service section -->
+              <div class="blur-serve">
+                <i class="bi bi-browser-edge"></i>
+                <p class="serve">Services</p>
+                <p class="serve-text">
+                  Expert services to implement, integrate, customize and
+                  optimize your ERP
+                </p>
+
+                <a href="#services"> <i class="bi bi-arrow-right arrow"></i></a>
+              </div>
+
+              <!-- The industry section -->
+              <div class="blur-serve blur-indus">
+                <i class="bi bi-buildings"></i>
+                <p class="serve">Industries</p>
+                <p class="serve-text">
+                  Industry specific solutions designed to solve challanges and
+                  give results
+                </p>
+
+                <a href="#industries"> <i class="bi bi-arrow-right arrow"></i></a>
+              </div>
+              <!-- The product section -->
+              <div class="blur-serve blur-product">
+                <i class="bi bi-box-seam"></i>
+                <p class="serve">Products</p>
+                <p class="serve-text">
+                  Powerful ERP products are built for modern businesses
+                </p>
+
+                <a href="#products"> <i class="bi bi-arrow-right arrow"></i></a>
+              </div>
             </div>
-            <div class="orbital-card card-3">
-              <i class="fa-solid fa-cloud"></i>
-              <span>Cloud Solutions</span>
-            </div>
-            <div class="orbital-card card-4">
-              <i class="bi bi-sliders"></i>
-              <span>Customisation</span>
-            </div>
-            <div class="orbital-card card-5">
-              <i class="fa-solid fa-chart-column"></i>
-              <span>Data & Analytics</span>
-            </div>
-            <div class="orbital-card card-6">
-              <i class="fa-solid fa-headset"></i>
-              <span>Support & Optimization</span>
-            </div>
+            <img src="./images/Globe.png" alt="A Globe" class="imgg" />
           </div>
         </div>
       </div>
-    </section>
+    </main>
 
-    <section class="partners-section">
-      <div class="container partners-container">
-        <p class="partners-title">TRUSTED BY GLOBAL ORGANISATIONS</p>
-        <div class="partners-logo-grid">
-          <img
-            src="images/optimum-red-logo.png"
-            alt="Optimum"
-            class="partner-logo"
-          />
-          <img
-            src="images/services_logo.png"
-            alt="Services"
-            class="partner-logo"
-          />
-          <img
-            src="images/pricewise_logo.png"
-            alt="Pricewise"
-            class="partner-logo"
-          />
-          <img
-            src="images/albergo_logo.png"
-            alt="Albergo"
-            class="partner-logo"
-          />
-          <img src="images/tulip_logo.jpg" alt="Tulip" class="partner-logo" />
-          <img src="images/heirs_logo.png" alt="Heirs" class="partner-logo" />
-          <img
-            src="images/prudential_logo.png"
-            alt="Prudential"
-            class="partner-logo"
-          />
-        </div>
-      </div>
-    </section>
-
-    <section class="services-section">
-      <div class="container">
-        <div class="services-header">
-          <div class="services-title">
-            <span class="badge badge-dark">WHAT WE DO</span>
-            <h2>
-              End-to-End ERP Solutions<br />Built Around
-              <span class="text-gradient">Your Business Needs</span>
+    <!-- COMPREHENSIVE SERVICES (6-GRID ROADMAP) -->
+    <section class="services-section" id="services">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="header-left">
+            <p class="section-tag tag-purple">Our Services</p>
+            <h2 class="section-title">
+              Comprehensive Services to <br class="desktop-only" />Transform
+              <span class="text-purple">Your Business</span>
             </h2>
           </div>
-          <div class="services-desc">
-            <p>
-              We help businesses modernize, integrate and automate their
-              operations with tailored ERP solutions.
-            </p>
-          </div>
-        </div>
-
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="icon-wrapper">
-              <i class="fa-solid fa-puzzle-piece"></i>
-            </div>
-            <h3>ERP Integration</h3>
-            <p>
-              Seamlessly connect your ERP with other systems for unified
-              operations and real-time data flow.
-            </p>
-            <a href="#" class="btn-link"
-              >Learn More<span><i class="fa-solid fa-arrow-right"></i></span
-            ></a>
-          </div>
-
-          <div class="service-card">
-            <div class="icon-wrapper">
-              <i class="bi bi-sliders"></i>
-            </div>
-            <h3>Customisation</h3>
-            <p>
-              Tailor your ERP solution to meet your specific business
-              requirements and workflows.
-            </p>
-            <a href="#" class="btn-link"
-              >Learn More<span><i class="fa-solid fa-arrow-right"></i></span
-            ></a>
-          </div>
-
-          <div class="service-card">
-            <div class="icon-wrapper">
-              <i class="fa-solid fa-gear"></i>
-            </div>
-            <h3>Automation</h3>
-            <p>
-              Automate routine tasks and processes to increase efficiency and
-              reduce manual effort.
-            </p>
-            <a href="#" class="btn-link"
-              >Learn More<span><i class="fa-solid fa-arrow-right"></i></span
-            ></a>
-          </div>
-
-          <div class="service-card">
-            <div class="icon-wrapper">
-              <i class="fa-solid fa-rocket"></i>
-            </div>
-            <h3>Implementation</h3>
-            <p>
-              Seamlessly deploy your ERP solution with minimal disruption to
-              your business operations.
-            </p>
-            <a href="#" class="btn-link"
-              >Learn More<span><i class="fa-solid fa-arrow-right"></i></span
-            ></a>
-          </div>
-
-          <div class="service-card">
-            <div class="icon-wrapper">
-              <i class="fa-solid fa-chart-column"></i>
-            </div>
-            <h3>Data & Analytics</h3>
-            <p>
-              Leverage your ERP data for actionable insights and informed
-              decision-making.
-            </p>
-            <a href="#" class="btn-link"
-              >Learn More<span><i class="fa-solid fa-arrow-right"></i></span
-            ></a>
-          </div>
-
-          <div class="service-card">
-            <div class="icon-wrapper">
-              <i class="fa-solid fa-headset"></i>
-            </div>
-            <h3>Support & Optimization</h3>
-            <p>
-              Receive ongoing support and optimization services to ensure your
-              ERP system performs at its best.
-            </p>
-            <a href="#" class="btn-link"
-              >Learn More<span><i class="fa-solid fa-arrow-right"></i></span
-            ></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="why-choose-us">
-      <div class="container why-container">
-        <div class="why-text">
-          <span class="badge badge-outline">WHY CHOOSE US</span>
-          <h2>A Partner You Can<br />Rely On</h2>
-          <p>
-            We combine deep ERP expertise with a customer-first approach to
-            deliver solutions that create lasting impact.
+          <p class="header-right-text">
+            Our experienced consultants and technologists partner with you
+            across the entire ERP journey to yield optimal output.
           </p>
-          <a href="#" class="btn btn-outline mt-4"
-            >About Us <i class="fa-solid fa-arrow-right"></i
-          ></a>
         </div>
 
-        <div class="why-grid">
-          <div class="why-feature">
-            <i class="fa-solid fa-globe neon-icon"></i>
-            <h4>Global Expertise</h4>
-            <p>
-              Serving clients across multiple industries and countries with
-              international best practices.
-            </p>
+        <!-- Services Roadmap Grid -->
+        <div class="roadmap-grid">
+          <!-- Card 1 -->
+          <div class="roadmap-card">
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fa-solid fa-puzzle-piece"></i>
+              </div>
+              <h3 class="card-title">ERP Integration</h3>
+              <p class="card-text">
+                Seamlessly connect your ERP with third-party applications,
+                systems and platforms for unified data and processes.
+              </p>
+            </div>
+            <a href="#" class="card-link"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
+          <!-- Card 2 -->
+          <div class="roadmap-card">
+            <div class="card-body">
+              <div class="card-icon"><i class="fa-solid fa-sliders"></i></div>
+              <h3 class="card-title">Customisation</h3>
+              <p class="card-text">
+                Tailor your ERP to match your unique business processes with
+                custom workflows, modules and dashboards.
+              </p>
+            </div>
+            <a href="#" class="card-link"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <!-- Card 3 -->
+          <div class="roadmap-card">
+            <div class="card-body">
+              <div class="card-icon"><i class="fa-solid fa-gear"></i></div>
+              <h3 class="card-title">Automation</h3>
+              <p class="card-text">
+                Automate repetitive tasks, approvals, and workflows to improve
+                efficiency, reduce costs and eliminate errors.
+              </p>
+            </div>
+            <a href="#" class="card-link"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <!-- Card 4 -->
+          <div class="roadmap-card">
+            <div class="card-body">
+              <div class="card-icon"><i class="fa-solid fa-rocket"></i></div>
+              <h3 class="card-title">Implementation</h3>
+              <p class="card-text">
+                End-to-end ERP implementation services delivered on-time,
+                on-budget and tailored to your goals.
+              </p>
+            </div>
+            <a href="#" class="card-link"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <!-- Card 5 -->
+          <div class="roadmap-card">
+            <div class="card-body">
+              <div class="card-icon">
+                <i class="fa-solid fa-chart-simple"></i>
+              </div>
+              <h3 class="card-title">Data & Analytics</h3>
+              <p class="card-text">
+                Turn your data into actionable insights with reporting,
+                dashboards and advanced analytics.
+              </p>
+            </div>
+            <a href="#" class="card-link"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <!-- Card 6 -->
+          <div class="roadmap-card">
+            <div class="card-body">
+              <div class="card-icon"><i class="fa-solid fa-headset"></i></div>
+              <h3 class="card-title">Support & Optimisation</h3>
+              <p class="card-text">
+                Ongoing support, maintenance and system optimisation to ensure
+                continuous peak performance.
+              </p>
+            </div>
+            <a href="#" class="card-link"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
 
-          <div class="why-feature">
-            <i class="fa-solid fa-trophy neon-icon"></i>
-            <h4>Proven Track Record</h4>
-            <p>
-              We have a proven track record of delivering successful ERP
-              implementations across various industries.
-            </p>
+        <!-- Horizontal Managed Services Inline Callout -->
+        <div class="managed-services-bar">
+          <div class="bar-left">
+            <div class="bar-icon-badge">
+              <i class="fa-solid fa-user-shield"></i>
+            </div>
+            <div>
+              <h4 class="bar-title">Managed Services</h4>
+              <p class="bar-subtitle">
+                We take care of your ERP environment so you can focus on what
+                you do best.
+              </p>
+            </div>
           </div>
-
-          <div class="why-feature">
-            <i class="fa-solid fa-bullseye neon-icon"></i>
-            <h4>Tailored Solutions</h4>
-            <p>
-              We design and implement ERP solutions that are specifically
-              tailored to meet the unique needs of each client.
-            </p>
-          </div>
-
-          <div class="why-feature">
-            <i class="fa-solid fa-microchip neon-icon"></i>
-            <h4>Technology Driven</h4>
-            <p>
-              We leverage the latest technology to deliver innovative ERP
-              solutions that drive business growth.
-            </p>
-          </div>
-
-          <div class="why-feature">
-            <i class="fa-solid fa-users neon-icon"></i>
-            <h4>Client-Centric Approach</h4>
-            <p>
-              We prioritize our clients' needs and work closely with them to
-              ensure their satisfaction and success.
-            </p>
-          </div>
-
-          <div class="why-feature">
-            <i class="fa-solid fa-shield-halved neon-icon"></i>
-            <h4>Quality & Reliability</h4>
-            <p>
-              Every ERP solution we deliver is built with quality and
-              reliability at its core, ensuring long-term success for our
-              clients.
-            </p>
-          </div>
+          <a href="services.html" class="card-link"
+            >Learn more <i class="fa-solid fa-arrow-right"></i
+          ></a>
         </div>
       </div>
     </section>
 
-    <section class="industries-section">
-      <div class="container">
-        <div class="industries-header">
-          <div class="industries-title">
-            <span class="badge badge-dark">INDUSTRIES WE SERVE</span>
-            <h2>Solutions for Every Industry</h2>
+    <!-- POWERFUL PRODUCTS -->
+    <section class="products-section" id="products">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="header-left">
+            <p class="section-tag tag-blue">Our Products</p>
+            <h2 class="section-title">
+              Powerful Products to Maximize
+              <span class="text-gradient"
+                ><br class="desktop-only" />Your ERP Potential</span
+              >
+            </h2>
           </div>
-          <div class="industries-desc">
-            <p>
-              We have extensive experience delivering ERP solutions across a
-              wide range of industries.
-            </p>
+          <p class="header-right-text">
+            Our suite of products and accelerators extend the power of your ERP
+            to help you innovate faster and operate smarter.
+          </p>
+        </div>
+
+        <div class="products-grid">
+          <!-- Product 1 -->
+          <div class="product-item">
+            <div>
+              <i class="fa-solid fa-link item-icon-blue"></i>
+              <h4 class="item-title">DP+ Connect</h4>
+              <p class="item-description">
+                Seamless integration platform to connect ERP with any
+                application or data source.
+              </p>
+            </div>
+            <a href="dp-connect.html" class="item-action-link"
+              >Learn more &rarr;</a
+            >
+          </div>
+          <!-- Product 2 -->
+          <div class="product-item">
+            <div>
+              <i class="fa-solid fa-wand-magic-sparkles item-icon-blue"></i>
+              <h4 class="item-title">DP+ Automate</h4>
+              <p class="item-description">
+                Workflow automation toolkit to streamline processes and boost
+                productivity.
+              </p>
+            </div>
+            <a href="dp-automate.html" class="item-action-link"
+              >Learn more &rarr;</a
+            >
+          </div>
+          <!-- Product 3 -->
+          <div class="product-item">
+            <div>
+              <i class="fa-solid fa-chart-line item-icon-blue"></i>
+              <h4 class="item-title">DP+ Analytics</h4>
+              <p class="item-description">
+                Advanced analytics and reporting solution for real-time business
+                intelligence.
+              </p>
+            </div>
+            <a href="dp-analytics.html" class="item-action-link"
+              >Learn more &rarr;</a
+            >
+          </div>
+          <!-- Product 4 -->
+          <div class="product-item">
+            <div>
+              <i class="fa-solid fa-puzzle-piece item-icon-blue"></i>
+              <h4 class="item-title">DP+ Extend</h4>
+              <p class="item-description">
+                Pre-built extensions and add-ons to enhance ERP functionality
+                effortlessly.
+              </p>
+            </div>
+            <a href="dp-extend.html" class="item-action-link"
+              >Learn more &rarr;</a
+            >
+          </div>
+          <!-- Product 5 -->
+          <div class="product-item span-mobile-2">
+            <div>
+              <i class="fa-solid fa-cloud item-icon-blue"></i>
+              <h4 class="item-title">DP+ Cloud</h4>
+              <p class="item-description">
+                Cloud enablement and migration toolkit for a secure, scalable
+                and future-ready ERP.
+              </p>
+            </div>
+            <a href="dp-cloud.html" class="item-action-link"
+              >Learn more &rarr;</a
+            >
           </div>
         </div>
 
-        <div class="industries-track-wrapper">
-          <div class="industries-track">
-            <div class="industry-item">
-              <div class="industry-icon">
-                <i class="fa-solid fa-industry"></i>
-              </div>
-              <span>Manufacturing</span>
+        <!-- Consultation Interactive Center Module Banner -->
+        <div class="consultation-banner">
+          <div class="banner-left">
+            <div class="banner-icon-shell">
+              <i class="fa-solid fa-lightbulb"></i>
             </div>
-
-            <div class="industry-item">
-              <div class="industry-icon"><i class="fa-solid fa-truck"></i></div>
-              <span>Wholesale &<br />Distribution</span>
-            </div>
-
-            <div class="industry-item">
-              <div class="industry-icon">
-                <i class="fa-solid fa-cart-shopping"></i>
-              </div>
-              <span>Retail &<br />eCommerce</span>
-            </div>
-
-            <div class="industry-item">
-              <div class="industry-icon">
-                <i class="fa-solid fa-building"></i>
-              </div>
-              <span>Construction &<br />Real Estate</span>
-            </div>
-
-            <div class="industry-item">
-              <div class="industry-icon">
-                <i class="fa-solid fa-graduation-cap"></i>
-              </div>
-              <span>Education</span>
-            </div>
-
-            <div class="industry-item">
-              <div class="industry-icon">
-                <i class="fa-solid fa-briefcase"></i>
-              </div>
-              <span>Services</span>
-            </div>
-
-            <div class="industry-item">
-              <div class="industry-icon">
-                <i class="fa-solid fa-hands-helping"></i>
-              </div>
-              <span>Non-Profit</span>
-            </div>
-          </div>
-
-          <a href="#" class="view-all-btn">
-            <i class="fa-solid fa-border-all"></i>
-            <span>View All</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="success-stories">
-      <div class="container">
-        <div class="success-header">
-          <div class="success-title">
-            <span class="badge badge-dark">SUCCESS STORIES</span>
-            <h2>Real Challenges, Real Results.</h2>
-          </div>
-          <a href="#" class="btn btn-outline-dark d-none d-md-inline-block"
-            >View All Case Studies <i class="fa-solid fa-arrow-right ms-2"></i
-          ></a>
-        </div>
-
-        <div class="success-grid">
-          <div
-            class="case-card"
-            style="
-              background-image: url(&quot;images/manufacturing-industry-bg.png&quot;);
-            "
-          >
-            <div class="card-overlay"></div>
-            <div class="card-content">
-              <span class="industry-tag">Manufacturing</span>
-              <h3>
-                Streamlining Operations for a Leading Manufacturing Company
+            <div>
+              <h3 class="banner-title">
+                Not sure which solution is right for you?
               </h3>
-              <p>
-                Implemented an integrated ERP solution that improved production
-                efficiency by 25% and reduced operational costs by 15%.
+              <p class="banner-subtitle">
+                Let our experts help you find the perfect fit for your business.
               </p>
-              <a href="#" class="read-more"
-                >Read case study <i class="fa-solid fa-arrow-right ms-2"></i
-              ></a>
             </div>
           </div>
-
-          <div
-            class="case-card"
-            style="
-              background-image: url(&quot;images/global-distribution-bg.png&quot;);
-            "
+          <a href="products.html" class="btn btn-primary whitespace"
+            >Get a Free Consultation &rarr;</a
           >
-            <div class="card-overlay"></div>
-            <div class="card-content">
-              <span class="industry-tag">Wholesale & Distribution</span>
-              <h3>Connecting Systems for a Global Distributor</h3>
-              <p>
-                Integrated multiple systems and automated workflows, resulting
-                in 40% faster order processing and accurate real-time inventory.
-              </p>
-              <a href="#" class="read-more"
-                >Read case study <i class="fa-solid fa-arrow-right ms-2"></i
-              ></a>
-            </div>
-          </div>
-
-          <div
-            class="case-card"
-            style="background-image: url(&quot;images/retail-bg.png&quot;)"
-          >
-            <div class="card-overlay"></div>
-            <div class="card-content">
-              <span class="industry-tag">Retail</span>
-              <h3>Driving Growth for a Retail Business</h3>
-              <p>
-                Customised ERP and POS integration improved customer experience
-                and increased sales by 20% within 12 months.
-              </p>
-              <a href="#" class="read-more"
-                >Read case study <i class="fa-solid fa-arrow-right ms-2"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center mt-4 d-md-none">
-          <a href="#" class="btn btn-outline-dark"
-            >View All Case Studies <i class="fa-solid fa-arrow-right ms-2"></i
-          ></a>
         </div>
       </div>
     </section>
 
-    <section class="cta-section">
-      <div class="container">
-        <div class="cta-banner">
-          <div class="cta-content">
-            <div class="cta-icon">
-              <i class="fa-solid fa-rocket"></i>
-            </div>
-            <div class="cta-text">
-              <h2>Ready to Transform Your Business?</h2>
-              <p>
-                Let's discuss how we can help you integrate, automate and grow
-                with the right ERP solution.
+    <!-- INDUSTRIES WE SERVE -->
+    <section class="industries-section" id="industries">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="header-left">
+            <p class="section-tag tag-purple">Industries We Serve</p>
+            <h2 class="section-title">
+              Solutions Built for
+              <span class="text-purple">Every Industry</span>
+            </h2>
+          </div>
+          <p class="header-right-text">
+            We understand the unique challenges of every industry and deliver
+            tailored ERP solutions that drive measurable impact.
+          </p>
+        </div>
+
+        <div class="industries-grid">
+          <!-- Industry 1 -->
+          <div class="industry-item indusbg1">
+            <!-- <div class="gradient-overlay"></div> -->
+            <div>
+              <i class="fa-solid fa-industry industry-icon"></i>
+              <h4 class="item-title">Manufacturing</h4>
+              <p class="item-description">
+                Optimize production, supply chain, and quality with real-time
+                visibility.
               </p>
             </div>
+            <a href="#" class="item-action-link">Explore Solutions &rarr;</a>
           </div>
+          <!-- Industry 2 -->
+          <div class="industry-item indusbg2">
+             <!-- <div class="gradient-overlay"></div> -->
+            <div>
+              <i class="fa-solid fa-truck-ramp-box industry-icon"></i>
+              <h4 class="item-title">Wholesale & Distribution</h4>
+              <p class="item-description">
+                Streamline inventory, warehousing and distribution for faster
+                delivery.
+              </p>
+            </div>
+            <a href="#" class="item-action-link">Explore Solutions &rarr;</a>
+          </div>
+          <!-- Industry 3 -->
+          <div class="industry-item indusbg3">
+            <div>
+              <i class="fa-solid fa-cart-shopping industry-icon"></i>
+              <h4 class="item-title">Retail & eCommerce</h4>
+              <p class="item-description">
+                Enhance customer experiences and optimize operations across all
+                channels.
+              </p>
+            </div>
+            <a href="#" class="item-action-link">Explore Solutions &rarr;</a>
+          </div>
+          <!-- Industry 4 -->
+          <div class="industry-item indusbg4">
+            <div>
+              <i class="fa-solid fa-trowel-bricks industry-icon"></i>
+              <h4 class="item-title">Construction & Real Estate</h4>
+              <p class="item-description">
+                Manage projects, resources and finances with precision accuracy.
+              </p>
+            </div>
+            <a href="#" class="item-action-link">Explore Solutions &rarr;</a>
+          </div>
+          <!-- Industry 5 -->
+          <div class="industry-item indusbg5">
+            <div>
+              <i class="fa-solid fa-building industry-icon"></i>
+              <h4 class="item-title">Schools & Education</h4>
+              <p class="item-description">
+                Enhance learning experiences and streamline administrative processes
+                with our educational solutions.
+              </p>
+            </div>
+            <a href="#" class="item-action-link">Explore Solutions &rarr;</a>
+          </div>
+          <!-- View All Module Action Link -->
+          <div class="industry-all-box">
+            <div>
+              <i class="fa-solid fa-grip industry-icon"></i>
+              <h4 class="item-title">View All Industries</h4>
+              <p class="item-description">
+                Discover how we help organizations across diverse sectors
+                transform.
+              </p>
+            </div>
+            <button class="circle-arrow-btn" aria-label="View all industries">
+              <a href="industries.html"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="cta-action">
-            <a href="#" class="btn btn-primary"
-              >Get a Free Consultation
-              <i class="fa-solid fa-arrow-right ms-2"></i
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <div class="footer-top max-w-7xl">
+        <!-- Footer Branding Column -->
+        <div class="footer-brand-col">
+          <div class="logo-block logo-white">
+            <span class="logo-graphic"><img src="./images/domain-plus log mod.png" alt=""></span>
+            <span class="logo-text">Domain Plus</span>
+          </div>
+          <p class="brand-pitch">
+            We deliver innovative ERP solutions that help businesses integrate,
+            automate and transform operations.
+          </p>
+          <div class="social-row">
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" aria-label="Twitter"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="#" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
             ></a>
           </div>
         </div>
-      </div>
-    </section>
 
-    <footer class="site-footer">
-      <div class="container">
-        <div class="footer-grid">
-          <div class="footer-col brand-col">
-            <div class="footer-logo">
-              <img src="images/logo.png" alt="Domain Plus Logo" height="30" />
-              <span class="logo-text">Domain Plus</span>
-            </div>
-            <p>
-              We deliver innovative ERP solutions that help businesses
-              integrate, automate and transform operations for sustainable
-              growth.
-            </p>
-            <div class="social-links">
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            </div>
-          </div>
-
-          <div class="footer-col">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="./about.html">About Us</a></li>
-              <li><a href="./solution.html">Solutions</a></li>
-              <li><a href="./blog.html">Blog</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="#">ERP Integration</a></li>
-              <li><a href="#">Customisation</a></li>
-              <li><a href="#">Automation</a></li>
-              <li><a href="#">Implementation</a></li>
-              <li><a href="#">Data & Analytics</a></li>
-              <li><a href="#">Support & Optimisation</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4>Resources</h4>
-            <ul>
-              <li><a href="#">Case Studies</a></li>
-              <li><a href="./blog.html">Blog</a></li>
-              <li><a href="#">Whitepapers</a></li>
-              <li><a href="#">Webinars</a></li>
-              <li><a href="#">FAQs</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col contact-col">
-            <h4>Contact Us</h4>
-            <ul>
-              <li>
-                <i class="fa-solid fa-location-dot"></i>
-                <span
-                  >2, Adaranijo Street,<br />opposite Pedro Police Station,<br />Palmgroove,
-                  Lagos,<br />Nigeria</span
-                >
-              </li>
-              <li>
-                <i class="fa-solid fa-phone"></i>
-                <span>08126290758</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-envelope"></i>
-                <span>info@domain-plusltd.com</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-globe"></i>
-                <span>www.domain-plusltd.com</span>
-              </li>
-            </ul>
-          </div>
+        <!-- Link Column 1 -->
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Industries</a></li>
+          </ul>
         </div>
 
-        <div class="footer-bottom">
-          <p>
-            &copy; 2026 Domain Plus International Limited. All rights reserved.
-          </p>
-          <div class="legal-links">
-            <a href="#">Privacy Policy</a>
-            <span class="divider">|</span>
-            <a href="#">Terms of Use</a>
-          </div>
+        <!-- Link Column 2 -->
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-list">
+            <li><a href="#">ERP Integration</a></li>
+            <li><a href="#">Customisation</a></li>
+            <li><a href="#">Automation</a></li>
+            <li><a href="#">Implementation</a></li>
+          </ul>
+        </div>
+
+        <!-- Link Column 3 -->
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Resources</h4>
+          <ul class="footer-list">
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Whitepapers</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Column -->
+        <div class="footer-contact-col">
+          <h4 class="footer-heading">Contact Us</h4>
+          <ul class="footer-contact-list">
+            <li class="contact-item">
+              <i class="fa-solid fa-location-dot contact-icon-purple"></i>
+              <span
+                >Suite 1002, Level 10,<br />20 Martin Place,<br />Sydney NSW
+                2000, Australia</span
+              >
+            </li>
+            <li class="contact-item">
+              <i class="fa-solid fa-phone contact-icon-purple"></i>
+              <span>+61 2 9158 6400</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Lower Footnote Copyright Section -->
+      <div class="footer-bottom max-w-7xl">
+        <p>
+          &copy; 2026 Domain Plus International Limited. All rights reserved.
+        </p>
+        <div class="footer-legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
         </div>
       </div>
     </footer>
 
-    <script src="./JavaScript/script.js"></script>
+    <!-- Linked External Script File -->
+    <script src="solution.js"></script>
   </body>
 </html>
